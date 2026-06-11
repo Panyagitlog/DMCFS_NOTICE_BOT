@@ -11,9 +11,7 @@ open_create_notice(page)
 
 fill_notice_form(page)
 
-input(
-    "Verify Everything Then Press Enter..."
-)
+input("Review Form Then Press Enter To Close...")
 
 browser.close()
 playwright.stop()
